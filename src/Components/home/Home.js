@@ -3,14 +3,11 @@ import './Home.css';
 function Home(){
     return(
         <>
-        <div className='page'>
-            <div className='page-title'>
-                <p>Hello!</p>
+            <div className='body'>
+                <div className='body_container'>
+                    <h2>Welcome to my Website</h2>
+                </div>
             </div>
-            <div className='page-desc'>
-                <p>Welcome, let's start!</p>
-            </div>
-        </div>
         </>
     )
 }
